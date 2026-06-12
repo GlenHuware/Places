@@ -10,7 +10,7 @@ view: roma_macro_analysis {
           COUNT(IF(primary_type = 'shopping_mall', 1, NULL)) AS mall_count,
           AVG(IF(primary_type = 'clothing_store', rating, NULL)) AS average_competitor_rating
         FROM
-          `hw-test-placeinsight.places_insights___it___sample.places`,
+          `hw-test-placeinsight.places_insights___it___sample.places_sample`,
           UNNEST(neighborhood_names) AS quartiere_reale
         WHERE
           ARRAY_LENGTH(neighborhood_names) > 0
