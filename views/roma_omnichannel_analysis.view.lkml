@@ -109,4 +109,12 @@ view: roma_macro_analysis {
     label: "Rating Medio Competitor"
     description: "Punteggio medio in stelle dei competitor (Google Maps)"
   }
+
+  measure: average_order_value {
+    type: number
+    sql: 1.0 * ${total_online_revenue} / NULLIF(${total_orders}, 0) ;;
+    value_format_name: eur_0
+    label: "Scontrino Medio (AOV)"
+    description: "Rapporto tra Fatturato e Ordini per valutare il potere d'acquisto dell'area"
+  }
 }
