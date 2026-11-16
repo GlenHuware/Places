@@ -11,7 +11,7 @@
   - title: Numero cc
     name: Numero cc
     model: Places
-    explore: roma_macro_analysis
+    explore: explore_che_non_esiste
     type: single_value
     fields: [roma_macro_analysis.competitor_count]
     limit: 500
@@ -35,7 +35,7 @@
   - title: Numero competitor
     name: Numero competitor
     model: Places
-    explore: roma_macro_analysis
+    explore: explore_che_non_esiste
     type: single_value
     fields: [roma_macro_analysis.competitor_count]
     limit: 500
@@ -59,7 +59,7 @@
   - title: Scontrino medio
     name: Scontrino medio
     model: Places
-    explore: roma_macro_analysis
+    explore: explore_che_non_esiste
     type: single_value
     fields: [roma_macro_analysis.average_order_value]
     limit: 500
@@ -83,7 +83,7 @@
   - title: Fatturato
     name: Fatturato
     model: Places
-    explore: roma_macro_analysis
+    explore: explore_che_non_esiste
     type: single_value
     fields: [roma_macro_analysis.total_online_revenue]
     limit: 500
@@ -106,7 +106,7 @@
   - title: ''
     name: ''
     model: Places
-    explore: roma_macro_analysis
+    explore: explore_che_non_esiste
     type: looker_scatter
     fields: [roma_macro_analysis.quartiere, roma_macro_analysis.competitor_count, roma_macro_analysis.total_online_revenue, roma_macro_analysis.traffic_score]
     sorts: [roma_macro_analysis.quartiere, roma_macro_analysis.competitor_count desc]
@@ -174,7 +174,7 @@
   - title: ''
     name: " (2)"
     model: Places
-    explore: roma_macro_analysis
+    explore: explore_che_non_esiste
     type: looker_grid
     fields: [roma_macro_analysis.quartiere, roma_macro_analysis.total_online_revenue, roma_macro_analysis.competitor_count, roma_macro_analysis.traffic_score, roma_macro_analysis.area_segmentation]
     pivots: [roma_macro_analysis.area_segmentation]
