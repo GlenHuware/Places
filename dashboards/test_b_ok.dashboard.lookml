@@ -8,8 +8,8 @@
   - name: ''
     label: ''
   elements:
-  - title: Numero cc
-    name: Numero cc
+  - title: Numero cc (modificato)
+    name: Numero cc (modificato)
     model: Places
     explore: roma_macro_analysis
     type: single_value
